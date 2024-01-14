@@ -1,0 +1,44 @@
+/* Color Pallete */
+/* BLACK = 080708 */
+/* BLUE = 3772FF */
+/* RED = DF2935 */
+/* SUNGLOW = FDCA40 */
+/* WHITE = E6E8E6 */
+
+* {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+    margin: 0;
+    background-color: #E6E8E6;
+}
+
+header {    
+    padding: 5px;
+    height: 50px;
+    background-color: #3772FF;
+    color: #FFFF;
+    text-align: center;
+    line-height: 50px;
+}
+
+header>h1 {
+    margin: 0;
+    padding: 0;
+}
+
+header>h1>span {
+    font-size: 16px;
+    font-weight:normal;
+}
+
+.container {
+    background-color: white;
+    margin: 2%;
+    padding: 3%;
+}
+
+.greetings {
+    text-align: center;
+}
