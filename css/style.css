@@ -35,10 +35,74 @@ header>h1>span {
 
 .container {
     background-color: white;
-    margin: 2%;
+    margin: 2% 3%;
     padding: 3%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 .greetings {
+    width: 100%;
     text-align: center;
+    margin : 10px 0 10px 0;
+}
+
+h3 {
+    background-color: #DF2935;
+    color: #FFFF;
+    height: 50px;
+    line-height: 50px;
+    width: 100%;
+    /* margin: 0; */
+}
+
+
+.content>p {
+    text-align: left;
+}
+
+.content>p:nth-child(4) {
+    text-align: center;
+}
+
+.counting-page {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.counting-page>h3 {
+    background-color: #FDCA40;
+    color: black;
+}
+
+form>input {
+    display: block;
+    width: 99.4%;
+    height: 25px;
+}
+
+form>button {
+    display: block;
+    width: 150px;
+    height: 35px;
+    margin: 10px auto 0;
+    font-size: 14px;
+    background-color: #080708;
+    border: none;
+    color: #FFFF;
+}
+
+form>button:nth-child(3) {
+    float: right;
+    background-color: #DF2935 ;
+}
+
+footer {
+    text-align: center;
+    background-color: #080708;
+    color: #FFFF;
+    height: 100px;
+    line-height: 100px;
 }
