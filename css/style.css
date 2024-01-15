@@ -116,9 +116,16 @@ button {
 }
 
 footer {
-    text-align: center;
+    display: flex;
+    flex-direction: column;
     background-color: #080708;
     color: #FFFF;
-    height: 100px;
-    line-height: 100px;
+    height: 150px;
+    justify-content: center;
+    align-items: center;
+}
+
+footer>span {
+    margin: 0;
+    color: #FFFF;
 }
