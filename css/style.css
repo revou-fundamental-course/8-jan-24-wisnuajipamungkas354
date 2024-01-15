@@ -77,26 +77,42 @@ h3 {
     color: black;
 }
 
-form>input {
+input {
     display: block;
     width: 99.4%;
     height: 25px;
 }
 
-form>button {
-    display: block;
+#hasil {
+    width: 99.4%;
+    height: 80px;
+    resize: none;
+    margin-top: 5px;
+}
+
+button {
+    display: inline-block;
     width: 150px;
     height: 35px;
     margin: 10px auto 0;
     font-size: 14px;
-    background-color: #080708;
     border: none;
+    cursor: pointer;
+}
+
+#btn-luas {
+    background-color: #080708;
     color: #FFFF;
 }
 
-form>button:nth-child(3) {
-    float: right;
-    background-color: #DF2935 ;
+#btn-reset {
+    background-color: #DF2935;
+    color: #FFFF;
+}
+
+#btn-hitung {
+    background-color: #3772FF;
+    color: #FFFF;
 }
 
 footer {

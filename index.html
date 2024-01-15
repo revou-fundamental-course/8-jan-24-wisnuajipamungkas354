@@ -15,6 +15,9 @@
             <h2>Welcome to Katik</h2>
             <p>Haii Sobat! Selamat Datang di Katik :) <br>
             Katik merupakan sebuah Web Aplikasi Sederhana yang berfungsi untuk menghitung nilai luas dan keliling persegi</p>
+            <p>Pilih Rumus yang akan Anda Gunakan!</p>
+            <button id="btn-luas">Luas</button>
+            <button id="btn-keliling">Keliling</button>
         </div>
         <div class="content">
             <h3>Luas Persegi</h3>
@@ -22,21 +25,22 @@
             <p>Rumus Luas Persegi yaitu :</p>
             <p><b>L = S x S</b></p>
             <p>Dimana : <br>
-                L = Luas <br>
-                S = Sisi
+                S = Sisi  <br>
+                L = Luas
             </p>
         </div>
         <div class="counting-page">
             <h3>Hitung Luas Persegi</h3>
-            <form action="" method="get">
-                <input type="number" name="input-sisi" placeholder="Nilai Sisi">
-                <button type="submit">Hitung</button>
-                <button type="reset">Reset</button>
-            </form>
+                <input type="number" id="input-nilai" name="input-sisi" placeholder="Nilai Sisi" required>
+                <textarea id="hasil" cols="30" rows="10" readonly>Hasil :</textarea>
+                <button id="btn-hitung">Hitung</button>
+                <button id="btn-reset">Reset</button>
         </div>
     </div>
     <footer>
         <h5>Katik | Kalkulator Matematik Persegi</h5>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
